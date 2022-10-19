@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root{
-    --verde: #49a09d;
-    --lilas: #5f2c82;
+    --verde: #f8e470;
+    --lilas: #a4d9f8;
 }
 
 *{
@@ -36,6 +36,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 section#login >div#imagem {
     background: var(--lilas) url(../imagens/pexels-ann-h-1762851.jpg) no-repeat center;
