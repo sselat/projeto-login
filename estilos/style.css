@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root{
-    --verde: #f8e470;
-    --lilas: #a4d9f8;
+    --amarelo: #f0d95c;
+    --azul: #00a2ff;
 }
 
 *{
@@ -13,7 +13,7 @@
 }
 
 body, html {
-    background-color: var(--lilas);
+    background-color: var(--azul);
     height: 100vh;
     width: 100vw;
 }
@@ -41,7 +41,7 @@ section#login {
     transition-timing-function: ease;
 }
 section#login >div#imagem {
-    background: var(--lilas) url(../imagens/pexels-ann-h-1762851.jpg) no-repeat center;
+    background: var(--azul) url(../imagens/pexels-ann-h-1762851.jpg) no-repeat center;
     background-size: cover;
     height: 200px;
     display: block;
