@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
     <title>Login</title>
+
 </head>
+
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                
+
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
-                    
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">
+                            account_circle
+                        </span>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" required
+                            autocomplete="email" maxlength="30">
+                        <label for="ilogin"></label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">
+                            vpn_key
+                        </span>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8"
+                            maxlength="20" autocomplete="current-password">
+                        </label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">Esqueci a senha</a>
+                    <span class="material-icons">
+                        mail
+                    </span>
                 </form>
             </div>
         </section>
     </main>
 </body>
+
 </html>
